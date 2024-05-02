@@ -39,7 +39,7 @@ h3.nav__link--style {
 }
 
 .price {
-    color: var(--highlight-typography-color);
+    color: var(--primary-color-one);
 }
 
 .logo__text--style {

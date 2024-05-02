@@ -5,8 +5,10 @@
 }
 
 :root {
-    --highlight-typography-color: #5BACC3;
-    --Nitro-Pink: #FFF0ED;
+    --primary-color-one: #5BACC3;
+    /*  --primary-color-one: #5BACC3; */
+    --primary-color-two: #FFF0ED;
+    /* --Nitro-Pink: #FFF0ED; */
     --Graphite: #393939;
     --Light-Gray: #F7F7F7;
 }
