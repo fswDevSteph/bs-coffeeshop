@@ -48,7 +48,9 @@ h3.nav__link--style {
 }
 
 .top__hero--nav {
-    /* text-transform: uppercase; */
+    display: flex;
+    flex-direction: column;
+
 }
 
 .bottom__hero--nav {
@@ -93,7 +95,16 @@ h3.nav__link--style {
 }
 
 .menu__text--alignment>article .description {
+    flex-direction: row;
+
     align-self: flex-start;
-    justify-content: right;
+    text-align: left;
+    width: 50%;
+}
+
+.menu__text--alignment>article .price {
+    flex-direction: row;
+    align-self: flex-start;
+    text-align: right;
     width: 50%;
 }
