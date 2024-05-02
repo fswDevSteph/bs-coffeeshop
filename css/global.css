@@ -1,0 +1,11 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+:root {
+    --Nitro-Blue: #5BACC3;
+    --Nitro-Pink: #FFF0ED;
+    --Graphite: #393939;
+    --Light-Gray: #F7F7F7;
+}

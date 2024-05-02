@@ -6,27 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/menu.css">
     <title>Coffee Shop - Menu</title>
 </head>
 
 <body>
     <header>
+
+        <img src="../assets/logos/coffee-beans-logo-and-footer.svg" alt="logo">
+        <h2 class="logo__text--style">nitro</h2>
         <nav>
-            <ul>
-                <li>ABOUT</li>
-                <li>MENU</li>
-                <li>SHOP NOW</li>
-            </ul>
-            <ul>
-                <li><a href="#hot-drinks">Hot Drinks</a></li>
-                <li><a href="#cold-drinks">Cold Drinks</a></li>
-                <li><a href="#pastries">Pastries</a></li>
+            <ul class="top__hero--nav">
+                <li><a href="">about</a></li>
+                <li><a href="">menu</a></li>
+                <li><a href="">shop now</a></li>
             </ul>
         </nav>
+        <div class="flex">
+            <h1 class="header__box--text">Menu</h1>
+            <img src="../assets/images/coffee-circle.jpg" alt="coffee grinds in a circle" class="hero__image--styles">
+        </div>
+        <ul class="bottom__hero--nav">
+            <li><a href="#hot-drinks">Hot Drinks</a></li>
+            <li><a href="#cold-drinks">Cold Drinks</a></li>
+            <li><a href="#pastries">Pastries</a></li>
+        </ul>
+
 
     </header>
     <main>
-        <h1>Menu</h1>
+
         <!-- hot drinks -->
         <section id="hot-drinks">
             <h2>Hot Drinks</h2>
@@ -35,14 +45,14 @@
                 acidity to
                 bring
                 everything together.</p>
-            <p>$2.99</p>
+            <p class="price">$2.99</p>
 
             <h3>Espresso</h3>
             <p>A balance between bold and smooth, powerful and sweet, our signature espresso blend is a complex flavor
                 profile. It
                 features strong notes of semi-sweet chocolate and caramel, with mild acidity and a bright floral finish
             </p>
-            <p>$4.99</p>
+            <p class="price">$4.99</p>
         </section>
 
         <!-- cold drinks -->
@@ -52,13 +62,13 @@
             <p>Our bright and delicious coffee blend, brewed over ice to give you a cold coffee freshness with all the
                 flavor of our
                 amazing in-house coffee.</p>
-            <p>$3.99</p>
+            <p class="price">$3.99</p>
 
             <h3>Iced Chai Latte</h3>
             <p>A creamy drink with a kick, this drink features spicy chai tea blended with your choice of milk and
                 poured
                 over ice</p>
-            <p>$6.99</p>
+            <p class="price">$6.99</p>
         </section>
 
         <!-- pastries -->
@@ -69,12 +79,12 @@
                 cinnamon
                 to create a
                 soft and chewy textured cookie</p>
-            <p>$3.50</p>
+            <p class="price">$3.50</p>
 
             <h3>Blueberry, Lemon and Thyme Muffin</h3>
             <p>Tart and sweet, this classic blueberry and lemon combination comes with an earthy twist.
             </p>
-            <p>$2.50</p>
+            <p class="price">$2.50</p>
         </section>
 
     </main>
