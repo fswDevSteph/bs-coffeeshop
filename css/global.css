@@ -2,29 +2,24 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+
 :root {
     --primary-color-one: #5BACC3;
     /*  --primary-color-one: #5BACC3; */
     --primary-color-two: #FFF0ED;
     /* --Nitro-Pink: #FFF0ED; */
-    --Graphite: #393939;
-    --Light-Gray: #F7F7F7;
+    --neutral-color-dark: #393939;
+    --neutral-color-medium: #F7F7F7;
+    --neural-color-light: #fff;
 }
 
-h1,
-h2 {
-    /* multi selector */
-    font-size: 60px;
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-}
 
 ul>li {
     list-style-type: none;
     text-transform: uppercase;
-}
-
-body {
-    font-family: 'Open Sans';
-    font-weight: 400;
 }

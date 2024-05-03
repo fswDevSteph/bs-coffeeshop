@@ -1,66 +1,33 @@
 @import url("../css/global.css");
 
-
-/* article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-
-} */
-
-h3.nav__link--style {
-    font-size: 33px;
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-/* p.regular {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-} */
-
-.italic {
-    font-size: 18px;
-    font-weight: 400;
-    font-style: italic;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.price {
-    color: var(--primary-color-one);
-}
-
 .logo__text--style {
-    font-size: 33px;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 2.063rem;
     font-weight: 300;
+    color: var(--neutral-color-dark);
 }
 
-.top__hero--nav {
+header {
+    border: 1px solid blueviolet;
+}
+
+.hero__nav--top {
     display: flex;
     flex-direction: column;
+}
+
+.hero__nav--bottom {
+    color: white;
+    background-color: var(--neutral-color-dark);
+    font-size: 1.313rem;
 
 }
 
-.bottom__hero--nav {
+.hero__nav--bottom>li>a {
     color: white;
-    background-color: var(--Graphite);
-    list-style-type: none;
-}
-
-.bottom__hero--nav>li>a {
-    color: white;
+    font-size: 1.313rem;
+    font-family: "Open Sans Regular", sans-serif;
+    font-weight: 25rem;
     text-decoration: none;
     display: flex;
     text-align: center;
@@ -68,43 +35,108 @@ h3.nav__link--style {
 
 }
 
-.header__box--text {
+h1.header__box--styles {
+    background-color: var(--neutral-color-dark);
     color: white;
-    background-color: var(--Graphite);
-    width: 300px;
-    height: 200px;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 3.75rem;
+    /* Width: 300px;
+        Height: 200px; */
+    width: 18.75rem;
+    height: 12.5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     align-self: flex-start;
-
-    /* width: 100%; */
+    padding: 0 3rem;
 }
 
 .hero__image--styles {
     width: 100%;
-    height: 700px;
-    background-position: center;
+    height: 43.75vh;
+    /* background-position: center; */
     background-size: cover;
 }
 
-.menu__text--alignment>article {
+/* h3>.menu__item--description */
+
+.menu__text--alignment {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Open Sans Light";
+    font-weight: 3.75rem;
 }
 
-.menu__text--alignment>article .description {
-    flex-direction: row;
-
-    align-self: flex-start;
-    text-align: left;
-    width: 50%;
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
 }
 
-.menu__text--alignment>article .price {
+article h2 {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+article h3 {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+article p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.225rem;
+    font-weight: 400;
+}
+
+p.menu__item--description {
+    display: flex;
     flex-direction: row;
     align-self: flex-start;
-    text-align: right;
-    width: 50%;
+    text-align: center;
+    width: 30%;
+}
+
+.price {
+    padding-bottom: 0;
+    color: var(--primary-color-one);
+}
+
+.italic {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+article:nth-child(2n) {
+    margin-bottom: 2rem;
+}
+
+article.hotdrinks__section--styles {
+    background-color: var(--primary-color-two);
+
+}
+
+article.colddrinks__section--styles {
+    background-color: var(--neutral-color-medium);
+
+}
+
+article.pasteries__section--styles {
+    background-color: var(--primary-color-two);
+
+}
+
+/* test css */
+
+article {
+    border: 1px solid red
 }
