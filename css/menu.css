@@ -82,7 +82,7 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem 0;
+
 }
 
 article h2 {
@@ -104,6 +104,7 @@ article p {
 }
 
 p.menu__item--description {
+    font-style: italic;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
@@ -116,30 +117,23 @@ p.menu__item--description {
     color: var(--primary-color-one);
 }
 
-.italic {
-    font-size: 1.125rem;
-    font-weight: 400;
-    font-style: italic;
-}
-
-article:nth-child(2n) {
+article.hotdrinks__section--styles {
+    background-color: var(--primary-color-two);
     margin-bottom: 2rem;
 }
 
-article.hotdrinks__section--styles {
-    background-color: var(--primary-color-two);
-
-}
 
 article.colddrinks__section--styles {
     background-color: var(--neutral-color-medium);
-
+    margin-bottom: 2rem;
 }
 
 article.pasteries__section--styles {
     background-color: var(--primary-color-two);
-
+    margin-bottom: 2rem;
 }
+
+
 
 /* test css */
 
