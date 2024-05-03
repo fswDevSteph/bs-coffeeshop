@@ -5,15 +5,15 @@
     position: relative;
 }
 
+.header__logo--icon {
+    width: 3.125l
+}
+
 .logo__text--style {
     font-family: "Open Sans Light", sans-serif;
     font-size: 2.063rem;
     font-weight: 300;
     color: var(--neutral-color-dark);
-}
-
-header {
-    border: 1px solid blueviolet;
 }
 
 .hero__nav--top {
@@ -25,6 +25,9 @@ header {
     color: white;
     background-color: var(--neutral-color-dark);
     font-size: 1.313rem;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 
 }
 
@@ -34,10 +37,6 @@ header {
     font-family: "Open Sans Regular", sans-serif;
     font-weight: 25rem;
     text-decoration: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-
 }
 
 h1.header__box--styles {
@@ -45,25 +44,23 @@ h1.header__box--styles {
     color: white;
     font-family: "Open Sans Light", sans-serif;
     font-size: 3.75rem;
-    /* Width: 300px;
-        Height: 200px; */
+    font-weight: 300;
     width: 18.75rem;
     height: 12.5rem;
-    /* display: flex; */
-    flex-direction: column;
-    align-self: flex-start;
-    padding: 0 3rem;
+    padding: 0;
+    margin: 0;
+    /* display: inline-block; */
 }
 
-.hero__image--styles {
+
+div.hero__image--styles {
     width: 100%;
-    height: 100vh;
-
-
+    height: 700px;
     background-size: cover;
-}
+    background-position: center;
 
-/* h3>.menu__item--description */
+    background-image: url('../assets/images/coffee-circle.jpg');
+}
 
 .menu__text--alignment {
     display: flex;
@@ -71,11 +68,12 @@ h1.header__box--styles {
 }
 
 h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: inline-block; */
+    text-align: center;
     font-family: "Open Sans Light";
     font-weight: 3.75rem;
+    position: absolute;
+    /* z-index: 1; */
 }
 
 article {
@@ -139,7 +137,3 @@ article.pasteries__section--styles {
 
 
 /* test css */
-
-article {
-    border: 1px solid red
-}
