@@ -110,11 +110,14 @@ p.menu__item--description {
     align-self: flex-start;
     text-align: center;
     width: 30%;
+    margin-bottom: 0;
 }
 
 .price {
     padding-bottom: 0;
+    margin-bottom: 0;
     color: var(--primary-color-one);
+
 }
 
 article.hotdrinks__section--styles {
