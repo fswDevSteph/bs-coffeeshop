@@ -1,5 +1,10 @@
 @import url("../css/global.css");
 
+.flex {
+    display: flex;
+    position: relative;
+}
+
 .logo__text--style {
     font-family: "Open Sans Light", sans-serif;
     font-size: 2.063rem;
@@ -52,8 +57,9 @@ h1.header__box--styles {
 
 .hero__image--styles {
     width: 100%;
-    height: 43.75vh;
-    /* background-position: center; */
+    height: 100vh;
+
+
     background-size: cover;
 }
 
