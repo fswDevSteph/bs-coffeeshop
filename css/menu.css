@@ -5,8 +5,8 @@
     position: relative;
 }
 
-.header__logo--icon {
-    width: 3.125l
+.icon {
+    width: 3.125
 }
 
 .logo__text--style {
@@ -16,16 +16,16 @@
     color: var(--neutral-color-dark);
 }
 
-header {
+header__menu {
     padding-bottom: 2rem;
 }
 
-.hero__nav--top {
+.header__nav--top {
     display: flex;
     flex-direction: column;
 }
 
-.hero__nav--bottom {
+.header__nav--bottom {
     color: white;
     background-color: var(--neutral-color-dark);
     font-size: 1.313rem;
@@ -35,7 +35,7 @@ header {
 
 }
 
-.hero__nav--bottom>li>a {
+.header__nav--bottom>li>a {
     color: white;
     font-size: 1.313rem;
     font-family: "Open Sans Regular", sans-serif;
@@ -43,7 +43,14 @@ header {
     text-decoration: none;
 }
 
-h1.header__box--styles {
+h1.primary__title {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+
+h1.primary__title--menu {
     background-color: var(--neutral-color-dark);
     color: white;
     font-family: "Open Sans Light", sans-serif;
@@ -54,6 +61,10 @@ h1.header__box--styles {
     padding: 0;
     margin: 0;
     /* display: inline-block; */
+}
+
+h1.title__primary--styles--background {
+    background-color: var(--neutral-color-dark);
 }
 
 
@@ -126,7 +137,7 @@ p.menu__item--description {
 
 article.hotdrinks__section--styles {
     background-color: var(--primary-color-two);
-    margin: 3rem;
+    margin-bottom: 3rem;
 }
 
 
