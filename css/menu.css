@@ -1,9 +1,5 @@
 @import url("../css/global.css");
 
-.flex {
-    display: flex;
-    position: relative;
-}
 
 .icon {
     width: 3.125
@@ -135,17 +131,15 @@ p.menu__item--description {
     margin-bottom: 0;
 }
 
-article.hotdrinks__section--styles {
+article.menu__article--hot-drinks {
     background-color: var(--primary-color-two);
     display: inline-block;
     text-align: center;
     margin-bottom: 3rem;
-
-
 }
 
 
-article.colddrinks__section--styles {
+article.menu__article--cold-drinks {
     background-color: var(--neutral-color-medium);
     display: inline-block;
     text-align: center;
@@ -153,7 +147,7 @@ article.colddrinks__section--styles {
 
 }
 
-article.pasteries__section--styles {
+article.menu__article--pastries {
     background-color: var(--primary-color-two);
     display: inline-block;
     text-align: center;
