@@ -58,9 +58,9 @@ h1.primary__title--menu {
     font-weight: 300;
     width: 18.75rem;
     height: 12.5rem;
-    padding: 0;
-    margin: 0;
-    /* display: inline-block; */
+    text-align: center;
+    ;
+    display: block;
 }
 
 h1.title__primary--styles--background {
@@ -78,8 +78,8 @@ div.hero__image--styles {
 }
 
 .menu__text--alignment {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* padding: 0 0 3rem 3rem; */
 }
 
 h1 {
@@ -118,36 +118,45 @@ article p {
 
 p.menu__item--description {
     font-style: italic;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
+    display: block;
+    /* text-align: left; */
     text-align: center;
     width: 30%;
     margin-bottom: 0;
 }
 
 .price {
-    padding-bottom: 0;
-    margin-bottom: 0;
+    display: inline-block;
+    text-align: center;
     color: var(--primary-color-one);
     font-family: "Open Sans", sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 article.hotdrinks__section--styles {
     background-color: var(--primary-color-two);
+    display: inline-block;
+    text-align: center;
     margin-bottom: 3rem;
+
+
 }
 
 
 article.colddrinks__section--styles {
     background-color: var(--neutral-color-medium);
+    display: inline-block;
+    text-align: center;
     margin-bottom: 3rem;
+
 }
 
 article.pasteries__section--styles {
     background-color: var(--primary-color-two);
+    display: inline-block;
+    text-align: center;
     margin-bottom: 3rem;
 }
 

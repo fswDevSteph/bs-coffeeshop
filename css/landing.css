@@ -1,5 +1,6 @@
 @import url("../css/global.css");
-@import url("../css/menu.css");
+/* @import url("../css/menu.css"); */
+
 /* 
 
 h1,
@@ -51,17 +52,19 @@ DISCOUNT BANNER Discount Text: DiscountCode Width: 90% Background color: Graphit
     padding-bottom: 0;
 }
 
-.primary__title--landing {
+/* .primary__title--landing {
     display: inline-block;
-}
+} */
 
-.hero {
+section.hero,
+article,
+h1>p {
     width: 100%;
     background-color: var(--primary-color-two);
-    display: inline-block;
-    text-align: left;
+    display: block;
+    /* text-align: left;
 
-    text-align: center;
+    text-align: center; */
 }
 
 article,
