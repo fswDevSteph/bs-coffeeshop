@@ -1,6 +1,5 @@
 @import url("../css/global.css");
 
-
 .icon {
     width: 3.125
 }
@@ -13,6 +12,7 @@
 }
 
 header__menu {
+    position: relative;
     padding-bottom: 2rem;
 }
 
@@ -40,9 +40,8 @@ header__menu {
 }
 
 h1.primary__title {
-    font-family: "Open Sans Light", sans-serif;
-    font-size: 3.75rem;
-    font-weight: 300;
+
+    position: absolute;
 }
 
 
@@ -55,7 +54,8 @@ h1.primary__title--menu {
     width: 18.75rem;
     height: 12.5rem;
     text-align: center;
-    display: block;
+    display: relative;
+    text-transform: uppercase;
 }
 
 div.header__menu--hero-img {
@@ -64,6 +64,7 @@ div.header__menu--hero-img {
     background-size: cover;
     background-position: center;
     background-image: url('../assets/images/coffee-circle.jpg');
+
 }
 
 h1 {
@@ -106,13 +107,10 @@ p.menu__item--description {
     margin-bottom: 0;
 }
 
-.price {
+.price__menu--item {
     display: inline-block;
     text-align: center;
     color: var(--primary-color-one);
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 400;
     margin-bottom: 0;
 }
 

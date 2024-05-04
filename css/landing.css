@@ -1,5 +1,5 @@
 @import url("../css/global.css");
-/* @import url("../css/menu.css"); */
+
 
 /* 
 
@@ -62,96 +62,92 @@ h1>p {
     width: 100%;
     background-color: var(--primary-color-two);
     display: block;
-    /* text-align: left;
+}
 
-    text-align: center; */
+
+
+.hero__img {
+    padding-left: 5rem;
+}
+
+.price__product--item {
+
+    color: var(--primary-color-one);
+    margin-bottom: 0;
+}
+
+.banner {
+    text-align: center;
+    color: white;
+    background-color: var(--neutral-color-dark);
+    width: 90%;
+    padding: .5em;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h3,
+nav heading,
+footer heading {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+
+/* discount text {
+    font-size: 45px;
+    font-weight: 400;
+    bold 700;
+}
+
+icons width: 50px;
+
+BUTTON DEFAULT Background color: Nitro-Blue Text color: White product img: Height: 280px DISCOUNT BANNER Discount Text: DiscountCode Width: 90% Background color: Graphite Text color: white
+*/
+
+.header {
+    background-color: var(--primary-color-two);
+    padding-bottom: 0;
+}
+
+.primary__title--landing {
+    display: block;
+}
+
+.hero {
+    width: 100%;
+    background-color: var(--primary-color-two);
+    display: inline-block;
+    text-align: left;
+
+    text-align: center;
 }
 
 article,
 h1,
-p {
-    @import url("../css/global.css");
-    @import url("../css/menu.css");
-    /* 
-    
-    h1,
-    h2 {
-        font-size: 60px;
-        font-weight: 300;
-    }
-    
-    h3,
-    nav heading,
-    footer heading {
-        font-size: 33px;
-        font-weight: 300;
-    }
-    
-    nav link,
-    button {
-        font-size: 21px;
-        font-weight: 400;
-    }
-    
-    p regular, p i {
-        font-size: 18px;
-        font-weight: 400;
-    
-    }
-    
-    discount text {
-        font-size: 45px;
-        font-weight: 400; 
-        bold 700
-    } 
-    
-    icons width: 50px;
-    
-    BUTTON DEFAULT Background color: Nitro-Blue Text color: White
-    
-    product img: Height: 280px
-    
-    DISCOUNT BANNER Discount Text: DiscountCode Width: 90% Background color: Graphite Text color: white
-    
-    
-    
-    
-    */
-
-    .header {
-        background-color: var(--primary-color-two);
-        padding-bottom: 0;
-    }
-
-    .primary__title--landing {
-        display: block;
-    }
-
-    .hero {
-        width: 100%;
-        background-color: var(--primary-color-two);
-        display: inline-block;
-        text-align: left;
-
-        text-align: center;
-    }
-
-    article,
-    h1,
-    p.primary__title--landing {
-        /* display: inline-block; */
-        text-align: left;
-
-    }
-
-    footer h3>img.icon {
-        width: 3.125
-    }
-
+p.primary__title--landing {
     text-align: left;
+}
+
+footer {
+    background-color: var(--primary-color-two);
+}
+
+footer address {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
 
 }
 
 img.icon {
-    width: 3.125
+
+    width: 3.125;
 }
