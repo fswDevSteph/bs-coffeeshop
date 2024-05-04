@@ -16,6 +16,10 @@
     color: var(--neutral-color-dark);
 }
 
+header {
+    padding-bottom: 2rem;
+}
+
 .hero__nav--top {
     display: flex;
     flex-direction: column;
@@ -115,23 +119,25 @@ p.menu__item--description {
     padding-bottom: 0;
     margin-bottom: 0;
     color: var(--primary-color-one);
-
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
 }
 
 article.hotdrinks__section--styles {
     background-color: var(--primary-color-two);
-    margin-bottom: 2rem;
+    margin: 3rem;
 }
 
 
 article.colddrinks__section--styles {
     background-color: var(--neutral-color-medium);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 article.pasteries__section--styles {
     background-color: var(--primary-color-two);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 
