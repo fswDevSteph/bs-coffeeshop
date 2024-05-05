@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header__landing">
+    <!-- <header class="header__landing">
         <a href="./index.html"><img src="../assets/logos/coffee-beans-logo-and-footer.svg" class="header__logo"
                 alt="logo"></a>
         <h2 class="logo__text--style">nitro</h2>
@@ -23,6 +23,19 @@
                 <li><a href="./pages/menu.html">shop now</a></li>
             </ul>
         </nav>
+    </header> -->
+    <header class="header">
+        <div class="header__nav--alignment">
+            <img src="../assets/logos/coffee-beans-logo-and-footer.svg" class="header__logo" alt="logo">
+            <h2 class="header--title">nitro</h2>
+            <nav>
+                <ul class="header__nav--top">
+                    <li><a href="/index.html">about</a></li>
+                    <li><a href="./menu.html">menu</a></li>
+                    <li><a href="./menu.html">shop now</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="hero">
@@ -37,26 +50,29 @@
         <section class="products">
             <h2>Our Products</h2>
             <div class="card">
-                <img src="./assets/images/coffeebeans.png" alt="coffee beans packaged in black bag" class="hero__img">
+                <img src="./assets/images/coffeebeans.png" alt="coffee beans packaged in black bag" class="card__img">
                 <h3 class="products__card--title">Coffee Beans</h3>
-                <h3 class="price__product--item">$18.99</h3>
+                <h3 class="product__item--price">$18.99</h3>
             </div>
 
             <div class="card">
-                <img src="./assets/images/coldbrew.png" alt="cold brew in environmentally friendly black travel mug">
+                <img src="./assets/images/coldbrew.png" alt="cold brew in environmentally friendly black travel mug"
+                    class="card__img">
                 <h3 class="products__card--title">Cold Brew</h3>
-                <h3 class="price__product--item">$4.99</h3>
+                <h3 class="product__item--price">$4.99</h3>
             </div>
 
             <div class="card">
-                <img src="./assets/images/inhousebrew.png" alt="in house brew in to go cup">
+                <img src="./assets/images/inhousebrew.png" alt="in house brew in to go cup" class="card__img">
                 <h3 class="products__card--title">In-house Brew</h3>
-                <h3 class="price__product--item">$2.99</h3>
+                <h3 class="product__item--price">$2.99</h3>
             </div>
             <button class="products__button">view all</button>
         </section>
-        <section class="banner">
-            <h3>Get 20% off your first order with code: <span class="bold">FirstNitro</span></h3>
+        <section class="discount">
+            <h3 class="discount__banner">Get 20% off your first order with code: <span class="bold">FirstNitro</span>
+            </h3>
+
         </section>
     </main>
     <footer class="footer">

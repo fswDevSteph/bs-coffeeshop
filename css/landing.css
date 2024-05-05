@@ -1,13 +1,67 @@
 @import url("../css/global.css");
 
-.header__landing {
+
+
+header.header {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
     background-color: var(--primary-color-two);
-    padding-bottom: 0;
 }
 
-/* .primary__title--landing {
+.header__nav--alignment img {
+    padding-right: 0;
+    padding-left: 1.25rem;
     display: inline-block;
-} */
+}
+
+.header__nav--alignment h2 {
+    padding-left: 0;
+    display: inline-block;
+}
+
+
+.header__nav--alignment nav {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1.25rem;
+
+}
+
+.header__nav--top li {
+    display: inline-block;
+    margin-right: 2rem
+}
+
+nav .ul.header__nav--top>li {
+    display: inline-block;
+}
+
+.header__nav--top li {
+    font-size: 1.313rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 1.25rem;
+}
+
+.header__nav--top li:nth-child(3) a {
+    color: var(--primary-color-one);
+}
+
+.header__nav--top li a {
+    color: var(--neutral-color-dark);
+    text-decoration: none;
+    padding-left: 2rem;
+    display: inline;
+}
+
+section.hero,
+section.products,
+section.discount,
+section.discount {
+
+    padding: 1.25rem;
+}
 
 section.hero,
 article,
@@ -17,59 +71,57 @@ h1>p {
     display: block;
 }
 
-
-
 .hero__img {
     padding-left: 5rem;
 }
 
-.price__product--item {
-
-    color: var(--primary-color-one);
-    margin-bottom: 0;
+.card {
+    width: 20.625rem;
+    Height: 440px;
+    margin: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
 }
 
-.banner {
+.card__img {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.625rem;
+
+}
+
+.products {
+    margin: 0;
     text-align: center;
+    background-color: var(--neutral-color-medium);
+
+}
+
+.products>.card {
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.product__item--price {
+    color: var(--primary-color-one);
+}
+
+.products__button {
+    display: inline-block;
+}
+
+.discount__banner {
     color: white;
     background-color: var(--neutral-color-dark);
-    width: 90%;
-
     padding: 1.25rem;
-    margin: 0;
-}
-
-.banner>h3 {
+    margin: 1.25rem;
     font-size: 2.813rem;
     font-weight: 400;
-
-
+    text-align: center;
 }
-
-h1,
-h2 {
-    font-size: 60px;
-    font-weight: 300;
-}
-
-/* h3,
-nav heading,
-footer heading {
-    font-size: 33px;
-    font-weight: 300;
-} */
-
-
-/* discount text {
-    font-size: 45px;
-    font-weight: 400;
-    bold 700;
-}
-
-icons width: 50px;
-
-BUTTON DEFAULT Background color: Nitro-Blue Text color: White product img: Height: 280px DISCOUNT BANNER Discount Text: DiscountCode Width: 90% Background color: Graphite Text color: white
-*/
 
 .header {
     background-color: var(--primary-color-two);
@@ -85,8 +137,9 @@ BUTTON DEFAULT Background color: Nitro-Blue Text color: White product img: Heigh
     background-color: var(--primary-color-two);
     display: inline-block;
     text-align: left;
-
     text-align: center;
+    margin: 0;
+
 }
 
 article,
@@ -108,7 +161,6 @@ footer address {
 
 }
 
-img.icon {
-
-    width: 3.125;
-}
+/* img.icon {
+    width: 3.125rem;
+} */
