@@ -12,14 +12,24 @@ header.header__menu {
 
 }
 
+.header__nav--alignment img {
+    padding-right: 0;
+    padding-left: 1.25rem;
+    display: inline-block;
+}
 
-.header__nav--alignment img,
-.header__nav--alignment h2,
+.header__nav--alignment h2 {
+    padding-left: 0;
+    display: inline-block;
+}
+
+/* .header__nav--alignment img,
+.header__nav--alignment h2, */
 .header__nav--alignment nav {
     display: inline-block;
     vertical-align: middle;
     padding: 1.25rem;
-    /* Adjust as needed */
+
 }
 
 .header__nav--top li {
