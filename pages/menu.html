@@ -14,30 +14,25 @@
 
 <body>
     <header class="header__menu">
-
-        <img src="../assets/logos/coffee-beans-logo-and-footer.svg" class="header__logo" alt="logo">
-        <h2 class="header__title--menu">nitro</h2>
-        <nav>
-            <ul class="header__nav--top">
-                <li><a href="/index.html">about</a></li>
-                <li><a href="./menu.html">menu</a></li>
-                <li><a href="./menu.html">shop now</a></li>
-            </ul>
-        </nav>
-
-        <h1 class="primary__title primary__title--menu">Menu</h1>
-
-        <div class="header__menu--hero-img"></div>
-        <!-- <img src="../assets/images/coffee-circle.jpg" alt="coffee grinds in a circle" class="header__menu--hero-img"> -->
-
-        <ul class="header__nav--bottom">
-            <li><a href="#hot-drinks">Hot Drinks</a></li>
-            <li><a href="#cold-drinks">Cold Drinks</a></li>
-            <li><a href="#pastries">Pastries</a></li>
-        </ul>
-
-
+        <div class="header__nav--alignment">
+            <img src="../assets/logos/coffee-beans-logo-and-footer.svg" class="header__logo" alt="logo">
+            <h2 class="header__menu--title">nitro</h2>
+            <nav>
+                <ul class="header__nav--top">
+                    <li><a href="/index.html">about</a></li>
+                    <li><a href="./menu.html">menu</a></li>
+                    <li><a href="./menu.html">shop now</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <h1 class="primary__title primary__title--menu">Menu</h1>
+    <div class="header--hero-img"></div>
+    <ul class="header__nav--bottom">
+        <li><a href="#hot-drinks">Hot Drinks</a></li>
+        <li><a href="#cold-drinks">Cold Drinks</a></li>
+        <li><a href="#pastries">Pastries</a></li>
+    </ul>
     <main>
         <!-- menu -->
         <section class="menu">
@@ -71,7 +66,8 @@
             <article id="cold-drinks" class="menu__article--cold-drinks">
                 <h2>Cold Drinks</h2>
                 <h3>Cold Brew</h3>
-                <p class="menu__item--description italic">Our bright and delicious coffee blend, brewed over ice to give
+                <p class="menu__item--description italic">Our bright and delicious coffee blend, brewed over ice to
+                    give
                     you a
                     cold coffee
                     freshness with all
@@ -87,7 +83,7 @@
                     choice of milk and
                     poured
                     over ice</p>
-                <p class="menu__item--description ">$6.99</p>
+                <p class="price__menu--item">$6.99</p>
             </article>
 
             <!-- menu__article--pastries -->
@@ -107,7 +103,7 @@
                     comes
                     with an earthy twist.
                 </p>
-                <p class="price__menu--itemprice">$2.50</p>
+                <p class="price__menu--item">$2.50</p>
             </article>
         </section>
     </main>

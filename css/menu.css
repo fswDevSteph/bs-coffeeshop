@@ -1,54 +1,99 @@
 @import url("../css/global.css");
 
-.icon {
-    width: 3.125
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header.header__menu {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--primary-color-two);
+}
+
+
+.header__nav--alignment img,
+.header__nav--alignment h2,
+.header__nav--alignment nav {
+    display: inline-block;
+    vertical-align: middle;
+    /* Adjust as needed */
+}
+
+.header__nav--top li {
+    display: inline-block;
+    margin-right: 2rem;
+    /* Optional: Adds some space between the links */
+}
+
+
+nav.ul.header__nav--top>li {
+    display: inline-block;
+}
+
+.header__nav--top li {
+    font-size: 1.313rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.header__nav--top li:nth-child(3) a {
+    color: var(--primary-color-one);
+}
+
+.header__nav--top li a {
+    color: var(--neutral-color-dark);
+    text-decoration: none;
+    padding-left: 2rem;
+    display: inline;
 }
 
 .logo__text--style {
-    font-family: "Open Sans Light", sans-serif;
     font-size: 2.063rem;
     font-weight: 300;
     color: var(--neutral-color-dark);
-}
-
-header__menu {
-    position: relative;
-    padding-bottom: 2rem;
-}
-
-.header__nav--top {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
 
 .header__nav--bottom {
-    color: white;
     background-color: var(--neutral-color-dark);
     font-size: 1.313rem;
     width: 100%;
     display: inline-block;
     text-align: center;
-    padding-right: 0;
+    padding: 1.5rem 0
 }
 
-.header__nav--bottom>li>a {
-    color: white;
+.header__nav--bottom li {
     font-size: 1.313rem;
-    font-family: "Open Sans Regular", sans-serif;
-    font-weight: 25rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.header__nav--bottom li a {
+    color: white;
     text-decoration: none;
+    border-left: 4px solid var(--primary-color-one);
+    padding-left: 1rem;
 }
 
 h1.primary__title {
-
     position: absolute;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
 h1.primary__title--menu {
     background-color: var(--neutral-color-dark);
     color: white;
-    font-family: "Open Sans Light", sans-serif;
     font-size: 3.75rem;
     font-weight: 300;
     width: 18.75rem;
@@ -58,13 +103,12 @@ h1.primary__title--menu {
     text-transform: uppercase;
 }
 
-div.header__menu--hero-img {
+div.header--hero-img {
     width: 100%;
     height: 700px;
     background-size: cover;
     background-position: center;
     background-image: url('../assets/images/coffee-circle.jpg');
-
 }
 
 h1 {
@@ -73,68 +117,72 @@ h1 {
     font-weight: 3.75rem;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* article>h2 h3 */
 
-}
-
-article h2 {
-    font-family: "Open Sans Light", sans-serif;
-    font-size: 3.75rem;
-    font-weight: 300;
-}
-
-article h3 {
-    font-family: "Open Sans Light", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 300;
-}
-
-article p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.225rem;
-    font-weight: 400;
-}
-
-p.menu__item--description {
-    font-style: italic;
-    display: block;
-    /* text-align: left; */
-    text-align: center;
-    width: 30%;
-    margin-bottom: 0;
-}
-
-.price__menu--item {
-    display: inline-block;
-    text-align: center;
-    color: var(--primary-color-one);
-    margin-bottom: 0;
+.menu>article {
+    margin: 0 auto;
 }
 
 article.menu__article--hot-drinks {
     background-color: var(--primary-color-two);
-    display: inline-block;
+    display: block;
     text-align: center;
-    margin: 3rem 0;
 }
 
+article.menu__article--hot-drinks h2 {
+    padding: 2rem 0;
+}
+
+article.menu__article--hot-drinks h3 {
+    padding: .25rem 0;
+}
 
 article.menu__article--cold-drinks {
     background-color: var(--neutral-color-medium);
     display: inline-block;
     text-align: center;
-    margin-bottom: 3rem;
+}
 
+article.menu__article--cold-drinks h2 {
+    padding: 2rem 0;
+}
+
+article.menu__article--cold-drinks h3 {
+    padding: .25rem 0;
 }
 
 article.menu__article--pastries {
     background-color: var(--primary-color-two);
-    display: inline-block;
+    display: block;
     text-align: center;
-    margin-bottom: 3rem;
+}
+
+article.menu__article--pastries h2 {
+    padding: 2rem 0;
+}
+
+article.menu__article--pastries h3 {
+    padding: 2rem 0;
+}
+
+p.menu__item--description {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+
+}
+
+.price__menu--item {
+    display: block;
+    text-align: center;
+    color: var(--primary-color-one);
+    padding-bottom: 1.5rem;
+
+}
+
+.icon {
+    width: 3.125
 }
 
 

@@ -1,53 +1,6 @@
 @import url("../css/global.css");
 
-
-/* 
-
-h1,
-h2 {
-    font-size: 60px;
-    font-weight: 300;
-}
-
-h3,
-nav heading,
-footer heading {
-    font-size: 33px;
-    font-weight: 300;
-}
-
-nav link,
-button {
-    font-size: 21px;
-    font-weight: 400;
-}
-
-p regular, p i {
-    font-size: 18px;
-    font-weight: 400;
-
-}
-
-discount text {
-    font-size: 45px;
-    font-weight: 400; 
-    bold 700
-} 
-
-icons width: 50px;
-
-BUTTON DEFAULT Background color: Nitro-Blue Text color: White
-
-product img: Height: 280px
-
-DISCOUNT BANNER Discount Text: DiscountCode Width: 90% Background color: Graphite Text color: white
-
-
-
-
-*/
-
-.header {
+.header__landing {
     background-color: var(--primary-color-two);
     padding-bottom: 0;
 }
@@ -85,18 +38,25 @@ h1>p {
     margin: 0;
 }
 
+.banner>h3 {
+    font-size: 2.813rem;
+    font-weight: 400;
+
+
+}
+
 h1,
 h2 {
     font-size: 60px;
     font-weight: 300;
 }
 
-h3,
+/* h3,
 nav heading,
 footer heading {
     font-size: 33px;
     font-weight: 300;
-}
+} */
 
 
 /* discount text {

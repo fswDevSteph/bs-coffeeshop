@@ -8,6 +8,10 @@
     --neural-color-light: #fff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans';
     font-weight: 400;
