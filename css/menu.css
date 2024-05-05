@@ -9,6 +9,7 @@ header.header__menu {
     display: inline-block;
     width: 100%;
     background-color: var(--primary-color-two);
+
 }
 
 
@@ -17,6 +18,7 @@ header.header__menu {
 .header__nav--alignment nav {
     display: inline-block;
     vertical-align: middle;
+    padding: 1.25rem;
     /* Adjust as needed */
 }
 
@@ -35,7 +37,7 @@ nav.ul.header__nav--top>li {
     font-size: 1.313rem;
     text-transform: uppercase;
     display: inline-block;
-    padding-left: 2rem;
+    padding-left: 1.25rem;
 }
 
 .header__nav--top li:nth-child(3) a {
@@ -60,6 +62,7 @@ nav.ul.header__nav--top>li {
     background-color: var(--neutral-color-dark);
     font-size: 1.313rem;
     width: 100%;
+    height: 5rem;
     display: inline-block;
     text-align: center;
     padding: 1.5rem 0
@@ -70,13 +73,14 @@ nav.ul.header__nav--top>li {
     text-transform: uppercase;
     display: inline-block;
     padding-left: 2rem;
+
 }
 
 .header__nav--bottom li a {
     color: white;
     text-decoration: none;
     border-left: 4px solid var(--primary-color-one);
-    padding-left: 1rem;
+    padding-left: 1.25rem;
 }
 
 h1.primary__title {
@@ -130,7 +134,7 @@ article.menu__article--hot-drinks {
 }
 
 article.menu__article--hot-drinks h2 {
-    padding: 2rem 0;
+    padding: 1.75rem 0;
 }
 
 article.menu__article--hot-drinks h3 {
@@ -144,7 +148,7 @@ article.menu__article--cold-drinks {
 }
 
 article.menu__article--cold-drinks h2 {
-    padding: 2rem 0;
+    padding: 1.75rem 0;
 }
 
 article.menu__article--cold-drinks h3 {
@@ -158,7 +162,7 @@ article.menu__article--pastries {
 }
 
 article.menu__article--pastries h2 {
-    padding: 2rem 0;
+    padding: 1.75rem 0;
 }
 
 article.menu__article--pastries h3 {

@@ -34,7 +34,8 @@ h1>p {
     color: white;
     background-color: var(--neutral-color-dark);
     width: 90%;
-    padding: .5em;
+
+    padding: 1.25rem;
     margin: 0;
 }
 
