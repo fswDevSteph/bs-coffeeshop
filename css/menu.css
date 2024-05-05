@@ -23,8 +23,7 @@ header.header__menu {
     display: inline-block;
 }
 
-/* .header__nav--alignment img,
-.header__nav--alignment h2, */
+
 .header__nav--alignment nav {
     display: inline-block;
     vertical-align: middle;
@@ -34,8 +33,7 @@ header.header__menu {
 
 .header__nav--top li {
     display: inline-block;
-    margin-right: 2rem;
-    /* Optional: Adds some space between the links */
+    margin-right: 2rem
 }
 
 
@@ -95,8 +93,6 @@ nav.ul.header__nav--top>li {
 
 h1.primary__title {
     position: absolute;
-    /* margin-left: 50%;
-    margin-right: 50%; */
     left: 0;
     right: 0;
     margin-left: auto;
@@ -119,7 +115,8 @@ h1.primary__title--menu {
 
 div.header--hero-img {
     width: 100%;
-    height: 700px;
+
+    height: calc((700 / 900) * 100vh);
     background-size: cover;
     background-position: center;
     background-image: url('../assets/images/coffee-circle.jpg');
@@ -131,7 +128,7 @@ h1 {
     font-weight: 3.75rem;
 }
 
-/* article>h2 h3 */
+
 
 .menu>article {
     margin: 0 auto;
@@ -198,7 +195,3 @@ p.menu__item--description {
 .icon {
     width: 3.125
 }
-
-
-
-/* test css */
