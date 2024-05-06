@@ -1,8 +1,6 @@
 :root {
     --primary-color-one: #5BACC3;
-    /*  --primary-color-one: #5BACC3; */
     --primary-color-two: #FFF0ED;
-    /* --Nitro-Pink: #FFF0ED; */
     --neutral-color-dark: #393939;
     --neutral-color-medium: #F7F7F7;
     --neural-color-light: #fff;
@@ -12,31 +10,25 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Open Sans';
-    font-weight: 400;
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 3.75rem;
-    /* font-size: 60px; */
-}
-
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 3.75rem;
-    /* font-size: 33px; */
-}
-
+body,
+h1,
+h2,
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+}
+
+body {
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-size: 3.75rem;
+}
+
+h3 {
     font-size: 2.063rem;
-    /* font-size: 21px; */
 }
 
 button {
@@ -50,7 +42,6 @@ button {
     margin: 1.25rem;
     text-transform: uppercase;
     display: block;
-
 }
 
 ul>li {

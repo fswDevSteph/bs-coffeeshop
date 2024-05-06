@@ -1,107 +1,111 @@
 @import url("../css/global.css");
 
-
-
-header.header {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
+header {
     background-color: var(--primary-color-two);
+    margin: 0;
+    width: 100%;
+}
+
+.header__nav--alignment img,
+.header__nav--alignment h2,
+.header__nav--alignment nav {
+    display: inline-block;
 }
 
 .header__nav--alignment img {
-    padding-right: 0;
     padding-left: 1.25rem;
-    display: inline-block;
 }
-
-.header__nav--alignment h2 {
-    padding-left: 0;
-    display: inline-block;
-}
-
 
 .header__nav--alignment nav {
-    display: inline-block;
-    vertical-align: middle;
     padding: 1.25rem;
-
+    vertical-align: middle;
 }
 
 .header__nav--top li {
     display: inline-block;
-    margin-right: 2rem
-}
-
-nav .ul.header__nav--top>li {
-    display: inline-block;
-}
-
-.header__nav--top li {
     font-size: 1.313rem;
+    margin-right: 2rem;
     text-transform: uppercase;
-    display: inline-block;
-    padding-left: 1.25rem;
+}
+
+.header__nav--top li a {
+    color: var(--neutral-color-dark);
+    padding-left: 2rem;
+    text-decoration: none;
 }
 
 .header__nav--top li:nth-child(3) a {
     color: var(--primary-color-one);
 }
 
-.header__nav--top li a {
-    color: var(--neutral-color-dark);
-    text-decoration: none;
-    padding-left: 2rem;
-    display: inline;
-}
-
-section.hero,
-section.products,
-section.discount,
-section.discount {
-
-    padding: 1.25rem;
-}
-
-section.hero,
-article,
-h1>p {
-    width: 100%;
+.hero {
     background-color: var(--primary-color-two);
-    display: block;
+    padding: 1.25rem;
+    text-align: center;
+    width: 100%;
+}
+
+.hero article {
+    width: 100%;
+}
+
+.left-content,
+.right-content {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 45%;
+}
+
+.left-content {
+    padding-right: 2.5%;
+}
+
+.right-content {
+    text-align: right;
+}
+
+.primary__title {
+    color: var(--neutral-color-dark);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.left-content p {
+    color: var(--neutral-color-dark);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .hero__img {
-    padding-left: 5rem;
+    height: auto;
+    max-width: 100%;
 }
 
 .card {
-    width: 20.625rem;
-    Height: 440px;
-    margin: 1.25rem;
-    padding: 1.25rem;
     border-radius: 0.625rem;
     box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    height: 440px;
+    margin: 1.25rem;
+    padding: 1.25rem;
+    width: 20.625rem;
 }
 
 .card__img {
-    overflow: hidden;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     border-radius: 0.625rem;
-
+    overflow: hidden;
 }
 
-.products {
-    margin: 0;
-    text-align: center;
+section.products {
     background-color: var(--neutral-color-medium);
-
+    padding: 1.25rem;
+    text-align: center;
 }
 
 .products>.card {
     display: inline-block;
-    align-items: center;
     vertical-align: middle;
 }
 
@@ -109,58 +113,44 @@ h1>p {
     color: var(--primary-color-one);
 }
 
-.products__button {
+div.card button.products__button {
     display: inline-block;
+    text-align: center;
+}
+
+section.discount {
+    margin: 1.25rem;
+    padding: 1.25rem;
 }
 
 .discount__banner {
-    color: white;
     background-color: var(--neutral-color-dark);
-    padding: 1.25rem;
-    margin: 1.25rem;
+    color: white;
     font-size: 2.813rem;
     font-weight: 400;
+    margin: 1.25em 0;
+    padding: 1.25em 0;
     text-align: center;
-}
-
-.header {
-    background-color: var(--primary-color-two);
-    padding-bottom: 0;
-}
-
-.primary__title--landing {
-    display: block;
-}
-
-.hero {
-    width: 100%;
-    background-color: var(--primary-color-two);
-    display: inline-block;
-    text-align: left;
-    text-align: center;
-    margin: 0;
-
-}
-
-article,
-h1,
-p.primary__title--landing {
-    text-align: left;
+    width: 90%;
 }
 
 footer {
     background-color: var(--primary-color-two);
+    text-align: center;
 }
 
-footer address {
-    font-style: normal;
+footer div.address,
+footer div.hours,
+footer div.social {
+    display: inline-block;
+    margin: 0 3rem;
+    text-align: center;
 }
 
-.bold {
+footer .bold {
     font-weight: 700;
-
 }
 
-/* img.icon {
-    width: 3.125rem;
-} */
+img.icon {
+    width: 5vh;
+}

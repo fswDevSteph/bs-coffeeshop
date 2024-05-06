@@ -127,8 +127,6 @@ h1 {
     font-weight: 3.75rem;
 }
 
-
-
 .menu>article {
     margin: 0 auto;
 }
@@ -148,6 +146,7 @@ article.menu__article--hot-drinks h3 {
 }
 
 article.menu__article--cold-drinks {
+    width: 100%;
     background-color: var(--neutral-color-medium);
     display: inline-block;
     text-align: center;
